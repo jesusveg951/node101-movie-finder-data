@@ -22,14 +22,6 @@ app.get('/', function(req, res){
             }).catch(err => res.json(err.message));
         }
 });
-
-//http://www.omdbapi.com/?i=tt3896198&apikey=
- 
-// var url = 'http://www.omdbapi.com/?apikey=1c41c0f5&'  
-
-
-
-
 // When making calls to the OMDB API make sure to append the '&apikey=8730e0e' parameter
 
 module.exports = app;
